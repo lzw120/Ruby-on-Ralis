@@ -1,3 +1,8 @@
+[1, 2, 3].inject([]) do |a, item|
+  p a
+  a<<item
+end
+
 # bigger or smaller game
 number = Random.rand(4)
 loop do 
